@@ -1,14 +1,15 @@
 # GRUNT vs GULP
 
-#### This project includes functional [Gulp](http://gulpjs.com/) and [Grunt](http://gruntjs.com/) setups to compile assets for a production ready Angular-Typescript project.
+#### This project includes functional [Gulp](http://gulpjs.com/) and [Grunt](http://gruntjs.com/) setups for a production ready Angular-Typescript project.
 
 ![grunt vs gult](https://raw.githubusercontent.com/M-jerez/grunt-vs-gulp/master/docs/grunt-vs-gulp.png)
 
-The Typescript project is based project based on [DanWahlin/AngularIn20TypeScript](https://github.com/DanWahlin/AngularIn20TypeScript)
+The Typescript project is based on [DanWahlin/AngularIn20TypeScript](https://github.com/DanWahlin/AngularIn20TypeScript)
+
 
 ---------------------------------
 
-### Notes:
+### Notes about each setup:
  - Both tasks manager generate the same assets.
  - Each task is written on it's own file. I use plugins that automatically load all tasks from a tasks directory.   [grunt-config-dir](https://www.npmjs.com/package/grunt-config-dir) & [gulp-load-plugins](https://www.npmjs.com/package/gulp-load-plugins)
  - Generated  CSS:
