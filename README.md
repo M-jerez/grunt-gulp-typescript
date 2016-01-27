@@ -21,7 +21,7 @@ The Typescript project is based on [DanWahlin/AngularIn20TypeScript](https://git
 
 
 ### Conclusions on Grunt vs Gulp
- - Gulp better performance is a Myth. My personal opinion is that there is no performance diferrence, even though gulp task seems to finish faster, it takes almost the same time or more to refresh the browser. Performance depends a lot on the watch tasks, if they execute all tasks or just some of them.
- - SourceMaps works fine in Gulp, while with Grunt is almost impossible to produce SourceMaps that actually work.
- - Be extremely carefull with grunt asyn tasks execution. If you wan to clean a directory, be sure do it syncronously at the beginning or you can actually clean the directory after other tasks have finished.
+ - Gulp better performance is a Myth. My personal opinion is that there is no performance diferrence, even though gulp task seems to finish faster, it takes almost the same time or more to refresh the browser. Performance depends a lot on how the watch task if configured, it can compile all project or jsut the relatred task.
+ - SourceMaps works fine in Gulp, while in Grunt is almost impossible to produce SourceMaps that actually work.
+ - Be extremely carefull with grunt async tasks execution. If you want to clean a directory, be sure do it syncronously, before any tother task is executed, or you might clean the directory after other tasks have finished.
  - Gulp watch may stop after some plugin fails.
